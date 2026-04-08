@@ -1,59 +1,61 @@
-AI Engineering Master Portfolio - MyRepository
-Benvenuti nella repository dedicata ai progetti realizzati durante il mio percorso di Master in AI Engineering. Questa collezione documenta l'evoluzione delle mie competenze: dalle basi della programmazione in Python fino alla progettazione e implementazione di sistemi di Intelligenza Artificiale complessi, sicuri e spiegabili.
+# 🎓 AI Engineering Master Portfolio
+### *Percorso Avanzato in Intelligenza Artificiale & Machine Learning*
 
-🚀 Overview del Percorso
-Il portfolio è composto da 11 progetti che simulano scenari industriali reali, dove l'obiettivo non è solo creare un modello performante, ma ingegnerizzare una soluzione completa che tenga conto di efficienza, etica (XAI) e resilienza.
+Benvenuti nella repository dedicata ai progetti realizzati durante il mio **Master in AI Engineering**. Questa collezione documenta un percorso di crescita tecnica che spazia dalla solida programmazione Python allo sviluppo di architetture di Deep Learning all'avanguardia.
 
-🧠 Competenze e Tecnologie Chiave
-1. Deep Learning & Computer Vision
-Ho lavorato estensivamente con architetture neurali per la classificazione e il monitoraggio visuale:
+---
 
-Architetture: Utilizzo di modelli consolidati e moderni come VGG16, ResNet, MobileNetV2, DenseNet, EfficientNetV2 e CNN personalizzate.
+## 🎯 Visione d'Insieme
+Il portfolio comprende **11 progetti** che affrontano sfide concrete del mondo industriale. L'approccio utilizzato non si limita alla creazione di modelli, ma punta alla loro **ingegnerizzazione**: dall'analisi del dato alla spiegabilità (XAI), fino alla sicurezza dei sistemi.
 
-Tecniche: Implementazione di Transfer Learning, Fine-Tuning e strategie avanzate di Data Augmentation per migliorare la generalizzazione su dataset complessi (es. Food Classification, Medical Defense, Document Analysis).
+---
 
-Framework: PyTorch, TensorFlow/Keras.
+## 🛠️ Competenze Core & Highlight Tecnici
 
-2. Generative AI & NLP
-Integrazione di modelli generativi per scopi ingegneristici:
+### 📸 Deep Learning & Computer Vision
+Ho implementato pipeline complesse per il riconoscimento visuale e il monitoraggio automatizzato.
+* **Architetture:** Esperienza diretta con modelli SOTA come `ResNet18`, `MobileNetV2`, `VGG16`, `DenseNet` ed `EfficientNetV2`.
+* **Tecniche:** Padronanza di **Transfer Learning**, fine-tuning avanzato e strategie di **Data Augmentation** per mitigare l'overfitting.
+* **Framework:** Sviluppo attivo in ambiente `PyTorch` e `TensorFlow/Keras`.
 
-Utilizzo di Stable Diffusion per il potenziamento di modelli discriminativi e scenari di Zero-Shot Learning.
+### 🛡️ Reinforcement Learning & Cyber Security
+Applicazione dell'AI per la protezione di infrastrutture critiche (settore sanitario).
+* **Agenti Intelligenti:** Sviluppo di modelli `SARSA` (approccio tabellare) e `DDQN` (Deep Q-Network).
+* **Resilienza:** Studio della capacità di recupero degli agenti sotto attacco informatico e analisi della stabilità delle politiche decisionali.
 
-Validazione di sistemi di reportistica automatica tramite metriche NLP come BLEU e ROUGE score.
+### 🔍 Explainable AI (XAI) & Trasparenza
+Focus sull'etica e sulla compliance normativa in ambiti sensibili (Banking/Finance).
+* **Trustworthy AI:** Integrazione di modelli "Black Box" ad alte prestazioni con sistemi "White Box" (Decision Trees) per garantire la spiegabilità dei risultati.
+* **Interpretazione:** Analisi delle matrici di confusione e mappe di salienza per identificare bias nei modelli.
 
-3. Reinforcement Learning (RL) & Cyber Security
-Applicazione dell'apprendimento per rinforzo per la protezione di infrastrutture critiche:
+### 🤖 Generative AI & NLP
+Integrazione di modelli generativi in flussi di lavoro ingegneristici.
+* **Zero-Shot Learning:** Utilizzo di `Stable Diffusion` per la generazione di dati sintetici e reportistica automatica.
+* **Validazione:** Valutazione della qualità del linguaggio tramite metriche `BLEU` e `ROUGE`.
 
-Sviluppo di agenti basati su SARSA (Tabular) e DDQN (Double Deep Q-Network).
+### 📊 Machine Learning & Data Science
+Analisi predittiva e ottimizzazione di algoritmi classici.
+* **Modelli:** Regressione regolarizzata (`Ridge`, `Lasso`, `Elastic Net`) e classificazione non parametrica (`KNN`).
+* **Optimization:** Ricerca degli iperparametri tramite `GridSearchCV` e Cross-Validation.
 
-Focus sulla resilienza cibernetica, confrontando la stabilità dei modelli e la loro capacità di "rimbalzo" post-attacco in ambienti simulati (Gym-IDSGame).
+---
 
-4. Explainable AI (XAI) & Ethics
-Progettazione di sistemi "Glass Box" per settori regolamentati (Bancario/Finanziario):
+## 📁 Struttura della Repository
+Ogni notebook (`.ipynb`) è strutturato come un caso studio indipendente che include:
+1.  **Preprocessing:** Pulizia e normalizzazione dei dati.
+2.  **Training:** Addestramento con monitoraggio delle curve di loss/accuracy.
+3.  **Evaluation:** Analisi critica dei risultati e identificazione di potenziali bias (es. bias cromatici o sbilanciamento delle classi).
+4.  **Future Works:** Suggerimenti per l'ottimizzazione e il deployment.
 
-Implementazione di tecniche di spiegabilità per rendere trasparenti i modelli Black Box.
+---
 
-Confronto tra performance pure e necessità di compliance normativa, utilizzando Decision Trees e mappe di salienza.
+## 🚀 Tecnologie Utilizzate
+| Area | Strumenti |
+| :--- | :--- |
+| **Linguaggi** | Python (Pandas, NumPy, Scikit-learn) |
+| **Deep Learning** | PyTorch, TensorFlow, Keras, Torchvision |
+| **RL & Environments** | OpenAI Gym, Gym-IDSGame |
+| **Data Viz** | Matplotlib, Seaborn |
+| **AI Generativa** | Stable Diffusion, NLP Metrics |
 
-5. Machine Learning Tradizionale & Data Science
-Analisi predittiva e ottimizzazione di modelli classici:
-
-Regressione Avanzata: Utilizzo di tecniche di regolarizzazione (Ridge, Lasso, Elastic Net) per il Real Estate pricing.
-
-Classificazione: Implementazione di K-Nearest Neighbors (KNN) con ottimizzazione dei parametri tramite GridSearchCV e Cross-Validation.
-
-Preprocessing: Pipeline complete di feature engineering, normalizzazione e gestione di dataset sbilanciati.
-
-6. Software Engineering con Python
-Fondamenta solide di programmazione per la gestione dei dati:
-
-Sviluppo di sistemi gestionali con logica CRUD, persistenza dati in JSON e interazione tramite riga di comando (sys.argv).
-
-📁 Struttura della Repository
-Ogni file .ipynb nella cartella rappresenta un modulo del Master e include:
-
-Analisi Sperimentale: Test di diverse configurazioni di iperparametri.
-
-Visualizzazione: Matrici di confusione, curve di loss/accuracy e grafici comparativi.
-
-Conclusioni Tecniche: Riflessioni critiche sui limiti dei modelli (bias cromatici, overfitting) e possibili sviluppi futuri.
+---
